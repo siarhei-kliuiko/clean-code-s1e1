@@ -26,7 +26,8 @@ body {
 
 @media (max-width: 768px) {
 
-.header-container { text-align: center;
+.header-container {
+  text-align: center;
 }
 
 }
@@ -47,10 +48,12 @@ body {
     margin: 0;
     padding: 0px;
 }
-.task-item, .list-title {
+.task-item,
+.list-title {
     list-style: none;
 }
-.task-input,.task-button{
+.task-input,
+.task-button{
     outline: none;
 }
 .task-button {
@@ -106,7 +109,6 @@ body {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
